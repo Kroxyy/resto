@@ -1,0 +1,21 @@
+.form-grid{
+    margin: auto 8rem;
+    display: grid;
+    grid-template-rows: repeat(2,50%);
+    grid-template-columns: repeat(3,30%);
+    justify-content: space-around;
+    width: auto;
+    input{
+        margin: 20px 10px;
+        height: 40px;
+        width: 100%;
+        @include line-bottom;
+    }
+    select{
+        @include line-bottom;
+        height: 61px;
+        margin: 10px;
+        width: 100%;
+        padding-bottom: 0;
+        }
+}

@@ -1,0 +1,51 @@
+.event{
+    text-align: center;
+    h1{
+        font-family: 'allura',sans-serif;
+        color: $allura;
+        font-size: 40px;
+        font-weight: 100;
+        margin-bottom: -40px;
+        margin-top: 10rem;
+
+    }
+    h2{
+        font-family: 'poppins',sans-serif;
+        color: white;
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+    h4{
+        font-size: 30px;
+        font-weight: 100;
+        margin-bottom: 10px;
+        margin-top: auto;
+    }
+    h5{
+        text-transform: uppercase;
+        font-size: 15px;
+        
+    }
+    p{
+        color: grey;
+        margin-bottom: 0;
+    }
+.event-left{
+    display: grid;
+    grid-template-rows: 47% 47%;
+    align-content: space-between;
+}
+.prog{ 
+    display: grid;
+    grid-template-columns: 58% 40%;
+    margin: 5% 15%;
+    font-family: 'roboto',sans-serif;
+    letter-spacing: 2px;
+    justify-content: space-between;
+    h3{
+        text-transform: uppercase;
+        font-weight: 900;
+        
+    }
+}
+}

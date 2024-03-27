@@ -1,0 +1,154 @@
+@media screen and (max-width: 700px){
+    
+    .cutlery{
+        margin: 30px auto;
+        width: 30px;
+    }
+    header{
+        height: 700px;
+        background-size: 300% 100%;
+        background-position: center;
+        nav{
+            justify-content: space-around;
+            img{
+                width: 20%;
+            }
+            ul{
+                display: none;
+                
+            }
+        }
+        h1{
+            font-size: 40px;
+            margin: 0 auto;
+        }
+        h2{
+            font-size: 40px;
+            margin-top: 80px;
+
+        }
+        p{
+            font-size: 15px;
+            margin: 0 15%;
+        }
+    }
+    .top{
+        display: flex;
+        .top-left{
+            p{
+                margin: 0 50px;
+            }
+            .avatar1{
+                width: 80px;
+                margin-top: 40px;
+            }
+        }
+        .top-right{
+            display: none;
+        }
+    }
+    .discover{
+        height: 100rem;
+        background-size: 140rem;
+        h1{
+            margin-bottom: 0;
+            margin-top: 10%;
+        }
+        .nav-menu{
+            display: inline;
+            margin: auto 5%;
+                ul{
+                    padding-inline-start: 0;
+                    margin: 0;
+                }
+                li{
+                    margin: 2% ;     
+                    font-size: 15px;
+                }
+            }
+        .plats{
+            display: block;
+            margin: 0 5%;
+            div{
+                margin: 20px;
+            }
+        }
+    }
+    .booking{
+        display: block;
+        margin: 6rem 5%;
+        padding-top: 1px;
+
+        
+
+        .booking-left{
+            height: 100%;
+            .cutlery{
+                margin: 0;
+            }
+            h3{
+                margin-top: 10px;
+            }
+        }
+        .booking-right{
+
+            h3{
+                padding-top: 50px;
+            }
+
+        
+            .form-grid{
+            display: block;
+            margin: auto 20%;
+            }
+        }
+        
+
+    }
+    .event{
+    display: none;
+    }
+    .com{
+        .container{
+            height: 100%;
+            margin: auto 5%;
+            p{
+                margin: auto 20%;
+                line-height: 40px
+            }
+            h2{
+                padding-bottom: 50px;
+            }
+            
+        }
+        .background{
+            background-size: 50rem;
+            background-repeat: no-repeat;
+
+        }
+    }
+    footer{
+        margin: 0 auto;
+        background: none;
+        .footer-left{
+            display: none;
+        }
+        .footer-container{
+            display: block;
+            margin: 40px 5%;
+            .followus{
+                a{
+                    margin: auto 20px;
+                }
+            }
+        }
+        .footer-right{
+            input{
+                width: 50%;
+            }
+        }
+       
+    }
+
+}
+    

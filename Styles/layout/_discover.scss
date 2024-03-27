@@ -1,0 +1,23 @@
+.discover{
+    background: url(/Asset/img/bg-menu-01.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    height: 80rem;
+    h1{
+        font-family: 'allura';
+        color: $allura;
+        font-size: 50px;
+        margin-top: 8rem;
+        font-weight: 100;
+    }
+}
+.nav-menu{
+    ul{
+        li{
+            border-bottom: 1px solid gray;
+            padding-bottom: 10px;
+            margin: 50px;
+        }
+    }
+}

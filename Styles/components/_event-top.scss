@@ -1,0 +1,18 @@
+.event-top{
+    display: grid;
+    grid-template-columns: 35% 65%;
+
+
+    .event-top-left{
+    background: url(/Asset/img/event-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 21rem;
+    background-position: -30px;
+    }
+    .event-top-right{
+        display: grid;
+        justify-items: start;   
+        padding-left: 30px;
+        background: whitesmoke;
+    }
+}

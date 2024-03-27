@@ -1,0 +1,44 @@
+@font-face {
+    font-family: allura;
+    src: url(../asset/font/Allura-Regular.ttf);
+  }
+  @font-face {
+    font-family: poppins;
+    src: url(../asset/font/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: Roboto;
+    src: url(../asset/font/Roboto-Light.ttf);
+  }
+
+
+@import "./Settings";
+@import "./layout/nav";
+@import "./layout/header";
+@import "./components/socialnetwork";
+@import "./layout/bodytop";
+@import "./layout/booking";
+@import "./layout/discover";
+@import "./layout/events";
+@import "./layout/com";
+@import "./layout/footer";
+@import "./components/cutlery";
+@import "./components/menu";
+@import "./components/button";
+@import "./components/form";
+@import "./components/date";
+@import "./components/event-bottom";
+@import "./components/event-right";
+@import "./components/event-top";
+@import "./layout/phone";
+
+
+
+
+
+
+
+
+
+
+

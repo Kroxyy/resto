@@ -1,0 +1,54 @@
+.top{
+    display: grid ;
+    grid-template-columns: 50% 50%;
+    background: rgb(238, 238, 238);
+
+    .top-left{
+        border: 2px solid $allura;
+        border-style:dashed;
+        
+        text-align: center;
+        margin: 3%;
+        
+        h2{
+            font-family: 'allura';
+            color: $allura ;
+            font-weight: 100;
+            font-size: 50px;
+            margin: 50px auto 0;
+        }
+        h1{
+            font-family: 'poppins';
+            text-transform: uppercase;
+            margin: -15px auto 10px;
+            font-size: 30px;
+        }
+        p{
+            margin: 30px 50px;
+            font-size: 20px;
+        }
+        .avatar1{
+            margin: auto;
+            border-radius: 90px;
+            width: 10%;
+        }
+        h3{
+            font-family: 'poppins',sans-serif;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+        h4{
+            font-family: 'poppins',sans-serif;
+            text-transform: uppercase;
+            margin-top: -5px;
+            color: rgb(169, 169, 169);
+            font-weight: 100;
+        }
+    } 
+    .top-right{
+            background: url(/Asset/img/dish-gallery-06.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+    }
+
+}

@@ -1,0 +1,30 @@
+.event-right{
+    grid-template-columns: 30% 70%;
+    background: whitesmoke;
+    background: url(/Asset/img/event-03.jpg);
+    background-repeat: no-repeat;
+    background-size: 35rem;
+    width: 100%;
+}
+.event-right-container{
+    background: white;
+    margin: 40px;
+    display: grid; 
+    padding: 0 4%;
+    align-content: space-between;
+    .date{
+        width: 100px;
+        margin: 0 auto 50px;
+        }
+    p{
+        margin: 0 auto;
+
+    }
+    h4{
+        margin-top: 0;
+    }
+    h5{
+        margin: 5rem auto 3rem;
+    }
+
+}

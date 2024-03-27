@@ -1,0 +1,51 @@
+.booking{
+    display: grid;
+    margin: 5% 15%;
+    grid-template-columns: 30% 70%;
+    background: black;
+    h3{
+        color: $allura;
+        font-family: 'allura';
+        font-size: 50px;
+        font-weight: 100;
+        margin-bottom: -45px;
+    }
+}
+.booking-left{
+    
+    text-align: center;
+    border: 1px dashed whitesmoke;
+    margin: 30px;
+        h2{
+            color: white;
+            font-family: 'poppins';
+            text-transform: uppercase;
+            font-size: 30px;
+        }
+        h4{
+            color: $allura;
+            text-transform: uppercase;
+            font-family: 'poppins';
+            font-weight: 100;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        p{
+            color: white;
+            line-height: 3px;
+        }
+}
+.booking-right{
+    background: whitesmoke;
+    text-align: center;
+    padding-bottom: 60px;
+    h1{
+        font-family: 'Poppins';
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    h3{
+        margin-top: 5rem;
+    }
+
+}

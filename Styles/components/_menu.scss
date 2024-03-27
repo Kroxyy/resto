@@ -1,0 +1,37 @@
+.plats{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: white;
+    margin: auto 20% auto 20%;
+    border-top: 5px solid $allura;
+    h4{
+        font-family: 'roboto';
+        text-transform: uppercase;
+    }
+    img{
+        border-radius: 90%;
+    }
+    .name{
+        display: block;
+        text-align: start;
+        border-bottom: none;
+    }
+    h2{
+        color: $allura;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: 'roboto';
+    }
+}
+.plats-left{
+    div{
+        @include plats
+    }
+   
+
+}
+.plats-right{
+    div{
+        @include plats
+    }
+}

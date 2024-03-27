@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 10%;
+        margin: 20px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto 50px;
+        li{
+            margin: auto 40px;
+            list-style: none;
+            color: white;
+            font-family: 'roboto',sans-serif;
+            text-transform: uppercase;
+        }
+    }
+}
