@@ -52,7 +52,7 @@ nav ul li {
 }
 
 header {
-  background-image: url(/Asset/img/bg-slider-06.jpg);
+  background-image: url(../Asset/img/bg-slider-06.jpg);
   height: 900px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -133,7 +133,7 @@ header p {
   font-weight: 100;
 }
 .top .top-right {
-  background: url(/Asset/img/dish-gallery-06.jpg);
+  background: url(../Asset/img/dish-gallery-06.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -191,7 +191,7 @@ header p {
 }
 
 .discover {
-  background: url(/Asset/img/bg-menu-01.jpg);
+  background: url(../Asset/img/bg-menu-01.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   text-align: center;
@@ -310,7 +310,7 @@ header p {
 .com .background {
   height: 500px;
   width: 100%;
-  background: url(/Asset/img/gmap.jpg);
+  background: url(../Asset/img/gmap.jpg);
   background-size: 100% 300%;
   background-position: center;
   margin-top: -150px;
@@ -506,7 +506,7 @@ footer .footer-container .followus .socialnetwork {
   grid-template-columns: 35% 65%;
 }
 .event-bottom .event-bottom-left {
-  background: url(/Asset/img/event-02.jpg);
+  background: url(../Asset/img/event-02.jpg);
   background-repeat: no-repeat;
   background-size: 22rem;
   background-position: -50px;
@@ -521,7 +521,7 @@ footer .footer-container .followus .socialnetwork {
 .event-right {
   grid-template-columns: 30% 70%;
   background: whitesmoke;
-  background: url(/Asset/img/event-03.jpg);
+  background: url(../Asset/img/event-03.jpg);
   background-repeat: no-repeat;
   background-size: 35rem;
   width: 100%;
@@ -554,7 +554,7 @@ footer .footer-container .followus .socialnetwork {
   grid-template-columns: 35% 65%;
 }
 .event-top .event-top-left {
-  background: url(/Asset/img/event-01.jpg);
+  background: url(../Asset/img/event-01.jpg);
   background-repeat: no-repeat;
   background-size: 21rem;
   background-position: -30px;
