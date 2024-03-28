@@ -1,14 +1,14 @@
 @font-face {
   font-family: allura;
-  src: url("/Asset/font/Allura-Regular.ttf") format("truetype");
+  src: url("../Asset/font/Allura-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: poppins;
-  src: url("/asset/font/Poppins-Medium.ttf") format("truetype");
+  src: url("../Asset/font/Poppins-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: Roboto;
-  src: url(/asset/font/Roboto-Light.ttf) format("truetype");
+  src: url("../Asset/font/Roboto-Light.ttf") format("truetype");
 }
 body {
   background: rgb(33, 32, 30);
