@@ -593,6 +593,7 @@ footer .footer-container .followus .socialnetwork {
   header h2 {
     font-size: 40px;
     margin-top: 80px;
+    margin-bottom: -20px;
   }
   header p {
     font-size: 15px;
@@ -614,8 +615,9 @@ footer .footer-container .followus .socialnetwork {
     display: none;
   }
   .discover {
-    height: 100rem;
+    height: 100%;
     background-size: 140rem;
+    padding-bottom: 10%;
   }
   .discover h1 {
     margin-bottom: 0;
@@ -677,7 +679,7 @@ footer .footer-container .followus .socialnetwork {
     padding-bottom: 50px;
   }
   .com .background {
-    background-size: 50rem;
+    background-size: 100rem;
     background-repeat: no-repeat;
   }
   footer {

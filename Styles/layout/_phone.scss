@@ -25,7 +25,7 @@
         h2{
             font-size: 40px;
             margin-top: 80px;
-
+            margin-bottom: -20px;
         }
         p{
             font-size: 15px;
@@ -48,8 +48,9 @@
         }
     }
     .discover{
-        height: 100rem;
+        height: 100%;
         background-size: 140rem;
+        padding-bottom: 10%;
         h1{
             margin-bottom: 0;
             margin-top: 10%;
@@ -122,9 +123,8 @@
             
         }
         .background{
-            background-size: 50rem;
+            background-size: 100rem;
             background-repeat: no-repeat;
-
         }
     }
     footer{
